@@ -13,7 +13,7 @@ const BookAppointment = () => {
         <div className="relative w-full h-screen bg-white rounded-2xl shadow-2xl">
           <div className="w-full h-full">
             <iframe
-              src={process.env.NEXT_PUBLIC_CALENDLY_URL}
+              src="https://calendly.com/rahulkhurana6603/30min"
               width="100%"
               height="100%"
               frameBorder="0"
