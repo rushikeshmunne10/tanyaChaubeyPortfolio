@@ -8,6 +8,7 @@ import Home from "@/components/Home";
 import Program from "@/components/Program";
 import WhyChooseTanya from "@/components/WhyChooseTanya";
 import { motion } from 'framer-motion';
+import Testimonials from '@/components/Testimonials';
 
 export default function Page() {
 
@@ -26,6 +27,7 @@ export default function Page() {
       <Expertise />
       <Program />
       <WhyChooseTanya />
+      <Testimonials/>
       <BookAppointment />
       <ContactInformation />
 

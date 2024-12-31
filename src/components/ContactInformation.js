@@ -21,7 +21,7 @@ const ContactInformation = () => {
               <div className="flex items-center gap-4 justify-center">
                 <FaEnvelope size={30} className="text-zinc-700 hover:text-zinc-500" />
                 <p className='text-lg'><strong>Email:</strong></p>
-                <p className="text-gray-700 text-lg underline"><a href={process.env.NEXT_PUBLIC_EMAIL_URL} target="_blank" rel="noopener noreferrer">{process.env.NEXT_PUBLIC_EMAIL_URL}</a></p>
+                <p className="text-gray-700 text-lg underline">{process.env.NEXT_PUBLIC_EMAIL_URL}</p>
               </div>
             </div>
 
