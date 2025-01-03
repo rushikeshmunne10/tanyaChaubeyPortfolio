@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tanya-chaubey-portfolio.vercel.app/sitemap.xml
