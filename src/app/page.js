@@ -9,6 +9,7 @@ import Program from "@/components/Program";
 import WhyChooseTanya from "@/components/WhyChooseTanya";
 import { motion } from 'framer-motion';
 import Testimonials from '@/components/Testimonials';
+import ServicesOffered from '@/components/ServicesOffered';
 
 export default function Page() {
 
@@ -21,11 +22,13 @@ export default function Page() {
   };
 
   return (
-    <>
+    <div>
+    
       <Home />
       <About />
       <Expertise />
       <Program />
+      <ServicesOffered />
       <WhyChooseTanya />
       <Testimonials/>
       <BookAppointment />
@@ -44,7 +47,7 @@ export default function Page() {
       <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 z-50">
         <motion.button
           onClick={handleButtonClick}
-          className="px-6 py-2 sm:py-4 bg-gradient-to-tr from-pink-950 to-pink-500 text-white rounded-3xl shadow-2xl"
+          className="px-6 py-2 sm:py-4 bg-[#3b1f2b] text-white rounded-xl shadow-2xl"
           initial={{ scale: 1 }}
           animate={{ scale: [1, 1.1, 1] }}
           transition={{
@@ -56,6 +59,6 @@ export default function Page() {
           <span className="font-semibold text-xl md:text-2xl">Book A Free Discovery Call</span>
         </motion.button>
       </div>
-    </>
+    </div>
   );
 }

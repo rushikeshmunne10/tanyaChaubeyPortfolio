@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Testimonials = () => {
     const testimonialsList = [
       {
@@ -21,17 +23,20 @@ const Testimonials = () => {
     return (
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-blue-900">
+          <div className="title flex justify-center items-center gap-x-5">
+          <Image src="/images/testimony.png" alt="testimonials" width={80} height={80} className="mb-4"/>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-[#065a60]">
             Testimonials
           </h2>
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {testimonialsList.map((testimonial, index) => (
               <div
                 key={index}
-                className="bg-white transition-all duration-300 ease-in-out transform shadow-md hover:scale-105 hover:shadow-xl rounded-lg p-6 text-justify"
+                className="bg-[#F0BB78] shadow-[#543A14] shadow-lg rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl p-6 text-justify"
               >
-                <p className="italic text-gray-600">"{testimonial.text}"</p>
-                <p className="text-right font-semibold text-blue-700 mt-4">
+                <p className="italic text-[#2E2E2E]">"{testimonial.text}"</p>
+                <p className="text-right text-[#065a60] italic font-bold mt-4">
                   - {testimonial.name}
                 </p>
               </div>
