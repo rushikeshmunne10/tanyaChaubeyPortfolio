@@ -1,13 +1,21 @@
 import Image from 'next/image';
-import TypingEffect from './TypingEffect';
 
 const Home = () => {
     return (
-        <div className='h-screen w-full mt-8'>
-            <div className="typing-effect hidden md:block">
-                <TypingEffect />
+        <div className='h-screen w-full mt-16 py-8 mb-16'>
+            <div className="max-w-7xl mx-auto px-4 text-center mb-8">
+                <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold text-[#065a60] mb-4">
+                    <div className="typing-text-one">
+                        Anxiety Doesn’t Define You — Let’s Rewrite Your Story Together...
+                    </div>
+                </h1>
+                <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold text-[#8E244D]">
+                    <span className="typing-text-two">
+                        Break Free from Anxiety and Create the Life You Deserve...
+                    </span>
+                </h2>
             </div>
-            <div className="flex items-center justify-center px-8 pt-12 md:pt-0">
+            <div className="flex items-center justify-center px-8 pt-2 sm:pt-12">
                 <div className="flex flex-col-reverse md:flex-row items-center bg-[#F0BB78] shadow-[#543A14] shadow-lg rounded-lg p-8 max-w-6xl">
                     {/* Text Content */}
                     <div className="flex-1">

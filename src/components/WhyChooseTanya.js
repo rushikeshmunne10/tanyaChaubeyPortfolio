@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FaStar } from "react-icons/fa";
 
 const WhyChooseTanya = () => {
   return (
