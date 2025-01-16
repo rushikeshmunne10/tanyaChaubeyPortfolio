@@ -14,6 +14,8 @@ const About = () => {
                                 alt="Tanya Chaubey"
                                 width={300}
                                 height={300}
+                                quality={75}
+                                loading="lazy"
                                 className="object-cover object-center w-full h-full rounded-md"
                             />
                         </div>

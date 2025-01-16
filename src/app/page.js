@@ -23,14 +23,14 @@ export default function Page() {
 
   return (
     <div>
-    
+
       <Home />
       <About />
       <Expertise />
       <Program />
       <ServicesOffered />
       <WhyChooseTanya />
-      <Testimonials/>
+      <Testimonials />
       <BookAppointment />
       <ContactInformation />
 
@@ -40,6 +40,8 @@ export default function Page() {
           alt="Logo"
           width={150}
           height={150}
+          quality={75}
+          loading="lazy"
           className="m-0 p-0"
         />
       </span>

@@ -18,7 +18,7 @@ const ContactInformation = () => {
           <div className="grid grid-cols-1 gap-8">
             <div className="space-y-6">
               <div className="flex flex-col sm:flex-row justify-center items-center gap-2">
-              <Image src="/images/gmail.png" alt="gmail" width={40} height={40}/>
+                <Image src="/images/gmail.png" alt="gmail" width={40} height={40} quality={75} loading="lazy" />
                 <p className='text-xl'><strong>Email:</strong></p>
                 <p className="text-emerald-950 text-lg underline italic">{process.env.NEXT_PUBLIC_EMAIL_URL}</p>
               </div>
@@ -31,10 +31,10 @@ const ContactInformation = () => {
                 </p>
                 <div className="flex space-x-6 justify-center">
                   <span className="text-pink-700 hover:text-pink-500">
-                    <a href={process.env.NEXT_PUBLIC_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer"><Image src="/images/instagram.png" alt="instagram" width={40} height={40} className='shadow-md shadow-black rounded-full'/></a>
+                    <a href={process.env.NEXT_PUBLIC_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer"><Image src="/images/instagram.png" alt="instagram" width={40} height={40} quality={75} loading="lazy" className='shadow-md shadow-black rounded-full' /></a>
                   </span>
                   <span className="text-blue-800 hover:text-blue-600">
-                    <a href={process.env.NEXT_PUBLIC_FACEBOOK_URL} target="_blank" rel="noopener noreferrer"><Image src="/images/facebook.png" alt="facebook" width={40} height={40} className='shadow-md shadow-black rounded-full'/></a>
+                    <a href={process.env.NEXT_PUBLIC_FACEBOOK_URL} target="_blank" rel="noopener noreferrer"><Image src="/images/facebook.png" alt="facebook" width={40} height={40} quality={75}  loading="lazy" className='shadow-md shadow-black rounded-full' /></a>
                   </span>
                 </div>
               </div>

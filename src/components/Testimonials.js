@@ -24,7 +24,7 @@ const Testimonials = () => {
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4">
           <div className="title flex justify-center items-center gap-x-5">
-          <Image src="/images/testimony.png" alt="testimonials" width={80} height={80} className="mb-4"/>
+          <Image src="/images/testimony.png" alt="testimonials" width={80} height={80} quality={75} loading="lazy" className="mb-4"/>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-[#065a60]">
             Testimonials
           </h2>

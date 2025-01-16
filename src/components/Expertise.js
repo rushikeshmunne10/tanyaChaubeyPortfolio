@@ -37,7 +37,7 @@ const Expertise = () => {
               className="bg-[#F0BB78] shadow-[#543A14] transition-all duration-300 ease-in-out transform shadow-md hover:scale-105 hover:shadow-xl rounded-lg p-6 text-center"
             >
               <div className="flex justify-center items-center text-4xl mb-4">
-                <Image src={item.icon} alt="expertise" width={100} height={100}/>
+                <Image src={item.icon} alt="expertise" width={100} height={100} quality={75} loading="lazy"/>
               </div>
               <h3 className="text-2xl font-semibold text-[#272640]">{item.title}</h3>
               <p className="text-[#2E2E2E] mt-2">{item.description}</p>

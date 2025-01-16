@@ -22,19 +22,19 @@ const Program = () => {
             </p>
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
-                <span className="text-pink-600 text-2xl"><Image src="/images/praying.png" alt="benefits" width={50} height={50} className="w-32 sm:w-24 md:w-16"/></span>
+                <span className="text-pink-600 text-2xl"><Image src="/images/praying.png" alt="benefits" width={50} height={50} quality={75} loading="lazy" className="w-32 sm:w-24 md:w-16"/></span>
                 <p className="text-[#2E2E2E]">
                   <strong>Spiritual Healing Session:</strong> Recharge and realign your inner energy to achieve emotional balance.
                 </p>
               </li>
               <li className="flex items-start gap-4">
-                <span className="text-pink-600 text-2xl"><Image src="/images/online-appointment.png" alt="benefits" width={50} height={50} className="w-32 sm:w-24 md:w-16 "/></span>
+                <span className="text-pink-600 text-2xl"><Image src="/images/online-appointment.png" alt="benefits" width={50} height={50} quality={75} loading="lazy" className="w-32 sm:w-24 md:w-16 "/></span>
                 <p className="text-[#2E2E2E]">
                   <strong>Bi-Weekly Counseling Calls:</strong> Personalized guidance to track your progress and tackle challenges.
                 </p>
               </li>
               <li className="flex items-start gap-4">
-                <span className="text-pink-600 text-2xl"><Image src="/images/planning.png" alt="benefits" width={50} height={50} className="w-32 sm:w-24 md:w-16 "/></span>
+                <span className="text-pink-600 text-2xl"><Image src="/images/planning.png" alt="benefits" width={50} height={50} quality={75} loading="lazy" className="w-32 sm:w-24 md:w-16 "/></span>
                 <p className="text-[#2E2E2E]">
                   <strong>Custom Plan for Achieving Results:</strong> A step-by-step strategy to help you reach your desired goals efficiently.
                 </p>

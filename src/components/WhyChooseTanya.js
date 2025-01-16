@@ -18,13 +18,15 @@ const WhyChooseTanya = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
 
             <div className="w-auto">
-                <Image
-                  src="/images/tanya-photo.jpg"
-                  alt="Tanya Choubey"
-                  className="rounded-lg shadow-lg"
-                  width={250}
-                  height={250}
-                />
+              <Image
+                src="/images/tanya-photo.jpg"
+                alt="Tanya Choubey"
+                className="rounded-lg shadow-lg"
+                width={250}
+                height={250}
+                quality={75}
+                loading="lazy"
+              />
             </div>
 
 
@@ -38,19 +40,19 @@ const WhyChooseTanya = () => {
 
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
-                  <Image src="/images/star.png" alt="key points" width={25} height={25}/>
+                  <Image src="/images/star.png" alt="key points" width={25} height={25} />
                   <p className="text-[#2E2E2E] font-bold">
                     Proven track record of helping clients achieve emotional balance and clarity.
                   </p>
                 </li>
                 <li className="flex items-start gap-4">
-                <Image src="/images/star.png" alt="key points" width={25} height={25}/>
+                  <Image src="/images/star.png" alt="key points" width={25} height={25} />
                   <p className="text-[#2E2E2E] font-bold">
                     Holistic approach tailored to individual needs for personal and professional growth.
                   </p>
                 </li>
                 <li className="flex items-start gap-4">
-                <Image src="/images/star.png" alt="key points" width={25} height={25}/>
+                  <Image src="/images/star.png" alt="key points" width={25} height={25} />
                   <p className="text-[#2E2E2E] font-bold">
                     Deep understanding of challenges faced by women in high-pressure environments.
                   </p>

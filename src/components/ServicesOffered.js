@@ -37,7 +37,7 @@ const ServicesOffered = () => {
               className="bg-[#F0BB78] shadow-[#543A14] shadow-lg rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl p-6 text-center"
             >
               <div className="flex justify-center items-center text-4xl mb-2">
-                <Image src={service.icon} alt={service.title} width={150} height={100} />
+                <Image src={service.icon} alt={service.title} width={150} height={100} quality={75} loading="lazy"/>
               </div>
               <h3 className="text-2xl font-bold text-[#272640]">
                 {service.title}

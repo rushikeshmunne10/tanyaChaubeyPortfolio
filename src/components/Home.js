@@ -30,6 +30,8 @@ const Home = () => {
                             alt="Tanya Chaubey in a white and blue dress"
                             width={250}
                             height={250}
+                            quality={75}
+                            loading="lazy"
                             className="object-cover object-center w-full h-full"
                         />
                     </div>
