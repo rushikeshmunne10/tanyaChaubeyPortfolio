@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Tanya Chaubey Portfolio",
+  title: "Life Coach - Tanya Chaubey",
   description: "This is a Digital Portfolio of Tanya Chaubey",
 };
 
