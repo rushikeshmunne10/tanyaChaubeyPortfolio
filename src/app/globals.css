@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-    /* background: linear-gradient(to right, #0f172a, #334155); */
-    background: #FFF0DC;
-    min-height: 100vh;
-    margin: 0;
-    color: #333;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
+  /* background: linear-gradient(to right, #0f172a, #334155); */
+  background: #FFF0DC;
+  min-height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+

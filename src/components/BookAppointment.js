@@ -16,7 +16,6 @@ const BookAppointment = () => {
               src="https://calendly.com/rahulkhurana6603/30min"
               width="100%"
               height="100%"
-              frameBorder="0"
               title="Calendly Booking"
               className="rounded-lg shadow-lg"
             ></iframe>

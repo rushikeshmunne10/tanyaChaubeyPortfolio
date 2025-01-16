@@ -1,8 +1,11 @@
 import Image from 'next/image';
+import TypingEffect from './TypingEffect';
 
 const Home = () => {
     return (
-        <div className="flex items-center justify-center h-screen w-full px-8">
+        <div className='h-screen w-full'>
+        <TypingEffect/>
+        <div className="flex items-center justify-center px-8">
             <div className="flex flex-col-reverse md:flex-row items-center bg-[#F0BB78] shadow-[#543A14] shadow-lg rounded-lg p-8 max-w-6xl">
                 {/* Text Content */}
                 <div className="flex-1">
@@ -21,6 +24,7 @@ const Home = () => {
                     />
                 </div>
             </div>
+        </div>
         </div>
     );
 };
